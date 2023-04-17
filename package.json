@@ -1,0 +1,21 @@
+{
+  "name": "scrapping_lamudi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "node migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "jsdom": "^21.1.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
+  }
+}
